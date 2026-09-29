@@ -18,47 +18,6 @@
 - [Формулировка и проверка гипотез. Статистический анализ данных](docs/sprint-10-statistics/index.md)
 - [Анализ результатов A/B-тестирования с помощью Python](docs/sprint-11-ab-testing/index.md)
 
-## Запуск локально
-
-```bash
-python -m venv .venv
-```
-
-Windows:
-
-```powershell
-.venv\\Scripts\\activate
-```
-
-Linux / macOS:
-
-```bash
-source .venv/bin/activate
-```
-
-Установить зависимости:
-
-```bash
-pip install -r requirements.txt
-```
-
-Запустить локальный сервер:
-
-```bash
-mkdocs serve
-```
-
-После этого открыть адрес, который покажет MkDocs в терминале, обычно `http://127.0.0.1:8000/`.
-
-## GitHub Pages
-
-Сайт собирается и публикуется автоматически при каждом `push` в ветку `main` с помощью GitHub Actions.
-
-В настройках репозитория необходимо выбрать:
-
-**Settings → Pages → Source → GitHub Actions**
-
-После первого успешного запуска workflow GitHub Pages будет опубликован автоматически.
 
 ## Структура проекта
 
